@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.admin-box{
+    background-color: aquamarine;
+    color:black;
+    width: 400px;
+    margin-top: 50px !important;
+    margin: auto;
+    padding: 25px;
+    text-align: center ;
+}
+
+form{
+    margin: 20px;
+}
+label{
+    display: block;
+    text-align: start;
+}
+input{
+    display: block;
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px ;
+    border-radius: 10px;
+}
+input[type="submit"] {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+a {
+    color:black;
+    text text-decoration: none;
+    text-align: end;
+    display: block;
+}
+p {
+    margin-top: 20px;
+}
+p a {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+body{
+    background: url('../img/BG\ 2.jpg') no-repeat;
+    background-size: cover;
+    -wenkit-background-size: cover;
+}
+span {
+    border: 2x solid #000;
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+}
